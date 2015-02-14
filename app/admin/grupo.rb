@@ -1,4 +1,5 @@
 ActiveAdmin.register Grupo do
+  permit_params :nombre, :descripcion
 
 
   # See permitted parameters documentation:
