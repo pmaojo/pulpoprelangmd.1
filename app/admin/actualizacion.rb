@@ -1,4 +1,5 @@
 ActiveAdmin.register Actualizacion do
+  permit_params :peso, :dieta, :cardio, :talla, :muscular
 
 
   # See permitted parameters documentation:
