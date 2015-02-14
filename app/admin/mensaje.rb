@@ -1,4 +1,5 @@
 ActiveAdmin.register Mensaje do
+  permit_params :asunto, :consulta
 
 
   # See permitted parameters documentation:
