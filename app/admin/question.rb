@@ -1,4 +1,5 @@
 ActiveAdmin.register Question do
+  permit_params :titulo, :mensaje
 
 
   # See permitted parameters documentation:
