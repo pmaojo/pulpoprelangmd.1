@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+  resources :mensajes
+
   resources :questions
 
   resources :categories
